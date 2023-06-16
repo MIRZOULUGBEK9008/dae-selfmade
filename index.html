@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Name of Project</title>
+  <title>Dae</title>
+
+  <!-- FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 
   <!-- STYLES  -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -16,6 +22,44 @@
   <div class="loader-wrapper js-loader">
     <span class="loader"></span>
   </div>
+
+  <!-- HEADER  -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <div class="site-header__top">Free Shipping on US Orders Over $60</div>
+    </div>
+    <div class="site-header__main">
+      <div class="site-header__main-container container">
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Shop</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">The Edit</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Our Story</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- SITE-LOGO -->
+        <a class="site-header__logo logo" href="index.html">
+          <img class="logo__img" src="img/logo.png" alt="Dae logo" width="120" height="56" srcset="img/logo.png 1x, img/logo@2x.png 2x">
+        </a>
+        <div class="site-header__auth auth">
+          <a class="auth__link" href="#">Account</a>
+          <a class="auth__store store" href="#">
+            <span class="store__count">0</span>
+            <img class="strore__img" src="img/store-pocket.svg" alt="Store pocket" width="20" height="22">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <script src="js/main.js"></script>
 </body>
