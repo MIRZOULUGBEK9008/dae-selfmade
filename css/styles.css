@@ -68,6 +68,21 @@ img {
   height: auto;
 }
 
+/* AUTOFILL  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 
 /* FOCUS-STYLES  */
 *:focus {
@@ -478,4 +493,108 @@ img {
   height: 167px;
   object-fit: cover;
   object-position: center;
+}
+
+
+/* SITE-FOOTER  */
+.site-footer {
+  background-color: #f6f4ec;
+}
+
+.site-footer__container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.site-footer__sitenav {
+  display: flex;
+  margin-right: auto;
+}
+
+.site-footer__sitenav .sitenav__list {
+  width: 100%;
+  max-width: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.site-footer__sitenav .sitenav__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.site-footer__sitenav .sitenav__link {
+  text-decoration: none;
+  color: #b45f4d;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+.site-footer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #c17c6c;
+}
+
+.index-form__title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.index-form__email-sender-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border:  1px solid #000;
+  background-color: transparent;
+  color: #b45f4d;
+  width: 100%;
+}
+
+.index-form__email-sender-box *:focus {
+  outline: none;
+}
+
+.index-form__input {
+  display: inline-block;
+  width: 100%;
+  max-width: 365px;
+  padding: 10px;
+  background-color: inherit;
+  border:  1px solid #b45f4d;
+  border-right-color: transparent;
+}
+
+.index-form__button {
+  background-color: inherit;
+  padding: 9px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border:  1px solid #b45f4d;
+  border-left-color: transparent;
+}
+
+.index-form__info {
+  font-size: 14px;
+}
+
+.index-form__address {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.site-footer__bottom {
+  padding: 18px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #000;
 }
