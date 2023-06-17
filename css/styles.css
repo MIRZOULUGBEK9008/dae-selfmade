@@ -17,9 +17,9 @@
 }
 
 .loader {
-  width: 48px;
-  height: 48px;
-  border: 5px dotted #000;
+  width: 4.8rem;
+  height: 4.8rem;
+  border: 0.5rem dotted #000;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -41,6 +41,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -57,7 +58,7 @@ body {
   background-color: #fff;
   color: #b45f4d;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 1.57;
   padding: 0;
   margin: 0;
@@ -79,23 +80,23 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-text-fill-color: black;
-  -box-shadow: 0 0 0px 1000px transparent inset;
+  -box-shadow: 0 0 0rem 100rem transparent inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 
 
 /* FOCUS-STYLES  */
 *:focus {
-  outline: 3px dashed #b4604d;
-  outline-offset: 3px;
+  outline: 0.3rem dashed #b4604d;
+  outline-offset: 0.3rem;
 }
 
 /* CONTAINER  */
 .container {
-  max-width: 1340px;
+  max-width: 134rem;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -104,9 +105,9 @@ select:-webkit-autofill:focus {
 /* VISUALLY-HIDDEN  */
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: -0.1rem;
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
@@ -155,9 +156,9 @@ select:-webkit-autofill:focus {
 
 .site-header__top {
   color: #f1d3b9;
-  font-style: 17px;
+  font-size: 1.7rem;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .site-header__main {
@@ -165,13 +166,13 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__main-container {
-  padding: 5px;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
 }
 
 .site-header__sitenav {
-  padding-right: 200px;
+  padding-right: 20rem;
 }
 
 .sitenav__list {
@@ -182,7 +183,7 @@ select:-webkit-autofill:focus {
 }
 
 .sitenav__item:not(:last-child) {
-  margin-right: 32px;
+  margin-right: 3.2rem;
 }
 
 .sitenav__link {
@@ -199,14 +200,14 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__logo {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .logo__img {
   display: block;
-  width: 120px;
-  height: 56px;
+  width: 12rem;
+  height: 5.6rem;
   object-fit: cover;
   object-position: center;
 }
@@ -221,10 +222,10 @@ select:-webkit-autofill:focus {
 }
 
 .auth__link {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #b45f4d;
   text-decoration: none;
-  margin-right: 19px;
+  margin-right: 1.9rem;
 }
 
 .auth__store {
@@ -234,15 +235,15 @@ select:-webkit-autofill:focus {
 
 .store__count {
   display: inline-block;
-  margin-left: 4px;
-  font-size: 15px;
+  margin-left: 0.4rem;
+  font-size: 1.5rem;
   line-height: auto;
 }
 
 .store__img {
   display: block;
-  width: 20px;
-  height: 22px;
+  width: 2rem;
+  height: 2.2rem;
   order: -1;
 }
 
@@ -252,8 +253,8 @@ select:-webkit-autofill:focus {
 }
 
 .hero__bg {
-  margin-top: 116px;
-  min-height: 435px;
+  margin-top: 11.6rem;
+  min-height: 43.5rem;
   background-image: url(../img/hero-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -263,20 +264,20 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 .hero__text {
   text-transform: uppercase;
   color: #fff;
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero__title {
   margin-top: 0;
-  margin-bottom: 28px;
+  margin-bottom: 2.8rem;
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
@@ -285,9 +286,9 @@ select:-webkit-autofill:focus {
 .hero__button {
   background-color: #b45f4d;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.7rem;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
 }
 
 
@@ -297,15 +298,15 @@ select:-webkit-autofill:focus {
 }
 
 .section-production__container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section-production__title {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 14px;
-  font-size: 23px;
+  margin-bottom: 1.4rem;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
@@ -313,7 +314,7 @@ select:-webkit-autofill:focus {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 4.5rem;
   padding: 0;
   list-style: none;
 }
@@ -326,24 +327,24 @@ select:-webkit-autofill:focus {
 
 .product__img {
   display: block;
-  width: 340px;
-  height: 510px;
+  width: 34rem;
+  height: 51rem;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 35px;
+  margin-bottom: 3.5rem;
 }
 
 .product__title {
-  font-size: 18px;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 2.3rem;
 }
 
 .product__cost {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1;
 }
 
@@ -363,8 +364,8 @@ select:-webkit-autofill:focus {
 
 .slider__button-img {
   display: block;
-  width: 66px;
-  height: 9px;
+  width: 6.6rem;
+  height: 0.9rem;
   object-fit: cover;
   object-position: center;
 }
@@ -372,13 +373,13 @@ select:-webkit-autofill:focus {
 /* SECTION-CTA  */
 
 .section-cta {
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
 }
 
 .section-cta__container {
   position: relative;
-  min-height: 408px;
+  min-height: 40.8rem;
   background-image: url(../img/cta-bg.jpg);
   background-size: cover;
   background-position: center center;
@@ -386,13 +387,13 @@ select:-webkit-autofill:focus {
 
 .section-cta__content {
   position: absolute;
-  bottom: 45px;
+  bottom: 4.5rem;
   left: 0;
   right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .cta-content {
@@ -401,14 +402,14 @@ select:-webkit-autofill:focus {
 }
 
 .cta-content__title {
-  font-size: 20px;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 400;
 }
 
 .cta-content__button {
   color: inherit;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-transform: capitalize;
 }
 
@@ -421,16 +422,16 @@ select:-webkit-autofill:focus {
 .section-info__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 97px;
-  padding-bottom: 67px;
+  padding-top: 9.7rem;
+  padding-bottom: 6.7rem;
 }
 
 .section-info__content {
   display: flex;
   align-items: center;
-  padding: 42px;
+  padding: 4.2rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 50rem;
   background-color: #fff;
 }
 
@@ -442,15 +443,15 @@ select:-webkit-autofill:focus {
 
 .section-info__title {
   margin-top: 0;
-  margin-bottom: 22px;
-  font-size: 30px;
+  margin-bottom: 2.2rem;
+  font-size: 3rem;
   font-weight: 400;
   text-transform: capitalize;
 }
 
 .section-info__description {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .section-info__button {
@@ -460,8 +461,8 @@ select:-webkit-autofill:focus {
 
 .section-info__img {
   display: block;
-  width: 500px;
-  height: 750px;
+  width: 50rem;
+  height: 75rem;
   object-fit: cover;
   object-position: center;
   order: -1;
@@ -470,16 +471,16 @@ select:-webkit-autofill:focus {
 
 /* SCETION-FOLLOW */
 .section-follow__container {
-  padding-top: 28px;
+  padding-top: 2.8rem;
 }
 
 .section-follow__title {
   text-align: center;
   text-transform: capitalize;
   color: #000;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 400;
-  margin-bottom: 44px;
+  margin-bottom: 4.4rem;
 }
 
 .section-follow__list {
@@ -492,8 +493,8 @@ select:-webkit-autofill:focus {
 
 .section-follow__img {
   display: block;
-  width: 192px;
-  height: 167px;
+  width: 19.2rem;
+  height: 16.7rem;
   object-fit: cover;
   object-position: center;
 }
@@ -506,8 +507,8 @@ select:-webkit-autofill:focus {
 
 .site-footer__container {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 }
 
 .site-footer__sitenav {
@@ -517,7 +518,7 @@ select:-webkit-autofill:focus {
 
 .site-footer__sitenav .sitenav__list {
   width: 100%;
-  max-width: 214px;
+  max-width: 21.4rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -528,14 +529,14 @@ select:-webkit-autofill:focus {
 
 
 .site-footer__sitenav .sitenav__item:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .site-footer__sitenav .sitenav__link {
   text-decoration: none;
   color: #b45f4d;
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .site-footer__form {
@@ -548,16 +549,16 @@ select:-webkit-autofill:focus {
 .index-form__title {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .index-form__email-sender-box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-  border:  1px solid #000;
+  margin-bottom: 2rem;
+  border:  0.1rem solid #000;
   background-color: transparent;
   color: #b45f4d;
   width: 100%;
@@ -570,34 +571,34 @@ select:-webkit-autofill:focus {
 .index-form__input {
   display: inline-block;
   width: 100%;
-  max-width: 365px;
-  padding: 10px;
+  max-width: 36.5rem;
+  padding: 1rem;
   background-color: inherit;
-  border:  1px solid #b45f4d;
+  border:  0.1rem solid #b45f4d;
   border-right-color: transparent;
 }
 
 .index-form__button {
   background-color: inherit;
-  padding: 9px;
+  padding: 0.9rem;
   text-transform: uppercase;
-  font-size: 13px;
-  border:  1px solid #b45f4d;
+  font-size: 1.3rem;
+  border:  0.1rem solid #b45f4d;
   border-left-color: transparent;
 }
 
 .index-form__info {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .index-form__address {
   font-style: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .site-footer__bottom {
-  padding: 18px;
+  padding: 1.8rem;
   text-align: center;
-  font-size: 14px;
-  border-top: 1px solid #000;
+  font-size: 1.4rem;
+  border-top: 0.1rem solid #000;
 }
