@@ -19,7 +19,7 @@
 .loader {
   width: 48px;
   height: 48px;
-  border: 5px dotted var(--black);
+  border: 5px dotted #000;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -127,6 +127,7 @@ img {
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .site-header__container {
@@ -446,4 +447,35 @@ img {
   object-fit: cover;
   object-position: center;
   order: -1;
+}
+
+
+/* SCETION-FOLLOW */
+.section-follow__container {
+  padding-top: 28px;
+}
+
+.section-follow__title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+.section-follow__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.section-follow__img {
+  display: block;
+  width: 192px;
+  height: 167px;
+  object-fit: cover;
+  object-position: center;
 }
